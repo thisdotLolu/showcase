@@ -1,0 +1,77 @@
+.headerBlock{
+    background: url(/public/hero-image.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    display: flex;
+    align-items:center;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0.3);
+  }
+  
+  .headerBlock__info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    /* height:360px; */
+  }
+  
+  .headerBlock__infoText{
+    text-align:center;
+    /* flex:1; */
+  }
+  .headerBlock__infoText > h1{
+    font-weight: 800;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#d0c3b3, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width:40vw;
+    text-align: start;
+    /* padding-left: 10vw; */
+    /* height: 30vh; */
+  }
+  .headerBlock__infoText > h4{
+    color:white;
+    font-weight: 600;
+    font-size: 1.7rem;
+    
+  }
+  .headerBlock__infoText > h4 > span{
+    padding-bottom: 4px;
+    padding-top:15px;
+    /* border-bottom:1px solid white; */
+    /* cursor:pointer; */
+    background: -webkit-linear-gradient(#d0c3b3, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .headerBlock__infoText > h4 > span:hover{
+    /* border-bottom:2px solid white; */
+    color:white;
+  }
+
+  .headerBlock__actions{
+    margin-top: 80px;
+    display:flex;
+    gap:20px;
+}
+
+.headerBlock__actions > button{
+    cursor:pointer;
+    border: none;
+    width : 260px;
+    padding-top: 12px;
+    padding-bottom:12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+
